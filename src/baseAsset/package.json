@@ -1,0 +1,12 @@
+{
+  "name": "@sina-base/asset",
+  "version": "2.0.1",
+  "private": false,
+  "sideEffects": false,
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

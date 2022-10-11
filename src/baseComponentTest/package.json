@@ -1,0 +1,31 @@
+{
+  "name": "@sina-base/componentTest",
+  "version": "2.3.3",
+  "private": false,
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "compile": "tsc -b",
+    "watch": "tsc -b -w",
+    "clean": "rimraf ./dist && rimraf  tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "@plus-base/asset": "^2.0.1",
+    "@plus-base/core": "^2.3.3",
+    "antd-img-crop": "^4.2.3",
+    "classnames": "^2.3.1",
+    "plus-rc-picker": "^2.5.12"
+  },
+  "peerDependencies": {
+    "@tanstack/react-virtual": "^3.0.0-beta.18"
+  },
+  "devDependencies": {
+    "reactjs-view-tests": "^2.4.0"
+  },
+  "description": "## PlusMenu",
+  "author": "",
+  "license": "ISC"
+}
