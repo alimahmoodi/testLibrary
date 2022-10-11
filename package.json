@@ -1,9 +1,8 @@
 {
   "name": "baseweb",
-  "version": "2.0.0",
+  "version": "0.0.1",
   "private": true,
   "secure": false,
-  "proxy": "http://192.168.34.193:6968",
   "description": "this package will be used for web functionalities of payamgostar packages",
   "workspaces": {
     "packages": [
